@@ -34,4 +34,4 @@ test:
 production:
   <<: *default
   database: OneBitFood_production
-  #password: <%= ENV['BACKEND_DATABASE_PASSWORD'] %>
+  password: <%= ENV['BACKEND_DATABASE_PASSWORD'] %>
