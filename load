@@ -1,0 +1,24 @@
+rails aborted!
+Don't know how to build task 'db:schema' (See the list of available tasks with `rails --tasks`)
+Did you mean?  db:schema:load
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/task_manager.rb:59:in `[]'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/application.rb:159:in `invoke_task'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/application.rb:116:in `block (2 levels) in top_level'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/application.rb:116:in `each'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/application.rb:116:in `block in top_level'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/application.rb:125:in `run_with_threads'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/application.rb:110:in `top_level'
+/app/vendor/bundle/ruby/3.0.0/gems/railties-6.1.3.2/lib/rails/commands/rake/rake_command.rb:24:in `block (2 levels) in perform'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/application.rb:186:in `standard_exception_handling'
+/app/vendor/bundle/ruby/3.0.0/gems/railties-6.1.3.2/lib/rails/commands/rake/rake_command.rb:24:in `block in perform'
+/app/vendor/bundle/ruby/3.0.0/gems/rake-13.0.3/lib/rake/rake_module.rb:59:in `with_application'
+/app/vendor/bundle/ruby/3.0.0/gems/railties-6.1.3.2/lib/rails/commands/rake/rake_command.rb:18:in `perform'
+/app/vendor/bundle/ruby/3.0.0/gems/railties-6.1.3.2/lib/rails/command.rb:52:in `invoke'
+/app/vendor/bundle/ruby/3.0.0/gems/railties-6.1.3.2/lib/rails/commands.rb:18:in `<main>'
+/app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+/app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+/app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+/app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+/app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.5/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+/app/bin/rails:5:in `<main>'
+(See full trace by running task with --trace)
