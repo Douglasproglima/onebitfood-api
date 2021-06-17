@@ -5,7 +5,7 @@ Restaurant.destroy_all
 Category.destroy_all
 Review.destroy_all
 # pathMain = 'https://raw.githubusercontent.com/Douglasproglima/onebitfood-api/main/public/images'
-pathMain = '../public/assets/images'
+pathMain = 'public/assets/images'
 
 puts 'Criando Categorias'
 
