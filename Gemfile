@@ -6,6 +6,7 @@ gem 'ransack'
 gem 'rack-cors'
 gem 'rack-attack'
 gem 'friendly_id', '~> 5.4.0'
+gem 'aws-sdk-s3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
